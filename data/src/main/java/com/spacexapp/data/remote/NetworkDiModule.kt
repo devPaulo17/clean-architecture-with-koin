@@ -21,7 +21,7 @@ val networkModule = module {
     factory { ResponseHandler() }
 
     factory<RemoteRocketsDataSource> {
-        RemoteRocketsDataSourceImpl(get(),get())
+        RemoteRocketsDataSourceImpl(get())
     }
 }
 

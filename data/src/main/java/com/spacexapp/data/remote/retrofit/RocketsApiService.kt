@@ -7,5 +7,5 @@ import retrofit2.http.GET
 interface RocketsApiService {
 
     @GET("v3/dragons")
-    suspend fun getList(): Response<HelloApi>
+    suspend fun getList(): Response<List<HelloApi>>
 }
